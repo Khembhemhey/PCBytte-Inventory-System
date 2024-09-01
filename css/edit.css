@@ -1,0 +1,84 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-content {
+    max-width: 460px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1c1b1b;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .main-content a#back{
+    color:white;
+    text-align: left;
+    float: left;
+    text-decoration: none;
+  }
+
+
+  
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+select#suppliers,
+select#shippers {
+  width: 85%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+select#suppliers option:first-child,
+select#shippers option:first-child {
+  color: #999;
+}
+
+select#suppliers option:hover,
+select#shippers option:hover {
+  background-color: #f4f4f4;
+}
+
+  

@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .container .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Unit List styles */
+  .unit-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .unit-box {
+    border: 1px solid black;
+    padding: 10px;
+  
+  }
+  
+  .unit-box h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+  }
+  
+  .unit-box p {
+    margin: 5px 0;
+  }
+  
+  .add-to-cart-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Cart styles */
+  .cart {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .cart h3 {
+    margin-top: 0;
+  }
+  
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart table th,
+  .cart table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart table th {
+    text-align: left;
+  }
+  
+  .cart table td:last-child {
+    text-align: center;
+  }
+  
+  .cart table td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cart table td a:hover {
+    text-decoration: underline;
+  }
+
+/*  .checkout-btn {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+  } */
+
+
+
+  .checkout-btn {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-actions a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.cart-actions a:hover {
+    text-decoration: underline;
+}
+
+

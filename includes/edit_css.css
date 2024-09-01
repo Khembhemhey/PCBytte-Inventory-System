@@ -1,0 +1,25 @@
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+select#suppliers,
+select#shippers {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+select#suppliers option:first-child,
+select#shippers option:first-child {
+    color: #999;
+}
+
+select#suppliers option:hover,
+select#shippers option:hover {
+    background-color: #f4f4f4;
+}
